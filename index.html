@@ -9,13 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Mahmya</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary ">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
                 <img alt="Brand" src="logo.svg" width="100px">
@@ -32,15 +33,15 @@
                         <i class='fas fa-hamburger' style='font-size:24px'></i> Food Menu
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Salads</a>
-                        <a class="dropdown-item" href="#">Appetizers</a>
-                        <a class="dropdown-item" href="#">Pizzas</a>
-                        <a class="dropdown-item" href="#">Pasta</a>
-                        <a class="dropdown-item" href="#">Rice</a>
-                        <a class="dropdown-item" href="#">Chicken</a>
-                        <a class="dropdown-item" href="#">Kids</a>
-                        <a class="dropdown-item" href="#">Seafood</a>
-                        <a class="dropdown-item" href="#">Oven Baked</a>
+                        <a class="dropdown-item" href="#salad">Salads</a>
+                        <a class="dropdown-item" href="#Appetizers">Appetizers</a>
+                        <a class="dropdown-item" href="#Pizzas">Pizzas</a>
+                        <a class="dropdown-item" href="#Pasta">Pasta</a>
+                        <a class="dropdown-item" href="#rice">Rice</a>
+                        <a class="dropdown-item" href="#Chicken">Chicken</a>
+                        <a class="dropdown-item" href="#Kids">Kids</a>
+                        <a class="dropdown-item" href="#Seafood">Seafood</a>
+                        <a class="dropdown-item" href="#Oven_Baked">Oven Baked</a>
                     </div>
                 </li>
             </ul>
@@ -53,11 +54,11 @@
                         <i class='fas fa-wine-glass-alt' style='font-size:24px'></i> Beverages Beverages
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Cold Drinks</a>
-                        <a class="dropdown-item" href="#">Hot Drinks</a>
-                        <a class="dropdown-item" href="#">Wine</a>
-                        <a class="dropdown-item" href="#">Beer</a>
-                        <a class="dropdown-item" href="#">Dessert</a>
+                        <a class="dropdown-item" href="#Cold Drinks">Cold Drinks</a>
+                        <a class="dropdown-item" href="#Hot Drinks">Hot Drinks</a>
+                        <a class="dropdown-item" href="#Wine">Wine</a>
+                        <a class="dropdown-item" href="#Beer">Beer</a>
+                        <a class="dropdown-item" href="#Dessert">Dessert</a>
 
                     </div>
                 </li>
@@ -69,10 +70,10 @@
     <div class="main-content">
         <div class="row">
             <!-- Start Itme salad -->
-            <div class="col-sm-6 col-md-4">
+            <div id="salad" class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="test">
-                        <img src="salad1.jpg" alt="...">
+                        <img src="salad1.jpg" alt="salad">
                         <div class="caption">
                             <h3>Salad</h3>
                             <table class="table table-striped">
@@ -123,10 +124,10 @@
             </div>
             <!-- End Itme salad -->
             <!-- Start Itme Appetizers -->
-            <div class="col-sm-6 col-md-4">
+            <div id="Appetizers" class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="test">
-                        <img src="Appetizers.jpg" alt="...">
+                        <img src="Appetizers.jpg" alt="Appetizers">
                         <div class="caption">
                             <h3>Appetizers</h3>
                             <table class="table table-striped">
@@ -186,18 +187,613 @@
                     </div>
                 </div>
             </div>
-            <!-- End Itme salad -->
+            <!-- End Itme Appetizers -->
+            <!-- Start Itme Pizzas -->
+            <div id="Pizzas" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Pizzas.jpg" alt="Pizzas">
+                        <div class="caption">
+                            <h3>Pizzas</h3>
+                            <table class="table table-striped">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Margherita</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>95.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Vegetarian </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>110.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Cheese Lovers</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>120.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tuna</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>130.00</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Pizzas -->
+            <!-- Start Itme Pasta -->
+            <div id="Pasta" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Pasta.jpg" alt="Pasta">
+                        <div class="caption">
+                            <h3>Pasta</h3>
+                            <table class="table table-striped">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Napolitana</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>120.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Bolognese</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>135.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Seafood</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>175.00 </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Pasta -->
+            <!-- Start Itme Rice -->
+            <div id="rice" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Rice.jpg" alt="Rice">
+                        <div class="caption">
+                            <h3>Rice</h3>
+                            <table class="table table-striped">
+
+                                <tbody>
+                                    <tr>
+                                        <th>White</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Brown </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>35.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Shrimp</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>175.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Seafood </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>175.00 </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Rice-->
+            <!-- Start Itme Chicken -->
+            <div id="Chicken" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Chicken.jpg" alt="Chicken">
+                        <div class="caption">
+                            <h3>Chicken</h3>
+                            <table class="table table-striped">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Grilled Half Chicken </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>135.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Chicken Panne </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>145.00 </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Chicken-->
+            <!-- Start Itme Kids -->
+            <div id="Kids" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Kids.jpg" alt="Kids">
+                        <div class=" caption ">
+                            <h3>Kids</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Pasta with Tomato gauce</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>80.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sausage Pizza </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>90.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Chicken Nuggets & French Fries</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>100.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Chicken Strips & French Fries</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>120.00 </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Kids-->
+
+            <!-- Start Itme Seafood -->
+            <div id="Seafood" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Seafood.jpg" alt="Seafood">
+                        <div class=" caption ">
+                            <h3>Seafood</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Calamari</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>240.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Grouper Fillet </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>280.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Jumbo Shrimp </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>380.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Seafood Platter <span>(Fish-Calamari-Shrimp) </span></th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>520.00 </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Seafood-->
+            <!-- Start Itme Oven Baked -->
+            <div id="Oven_Baked" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Oven Baked.jpg" alt="Oven Baked">
+                        <div class=" caption ">
+                            <h3>Oven Baked</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Calamari </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>240.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fish</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>280.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Shrimp</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>380.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Seafood </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>420.00 </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Oven Baked-->
+            <!-- Start Itme Cold Drinks -->
+            <div id="Cold Drinks" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Cold Drinks.jpg" alt="Cold Drinks">
+                        <div class=" caption ">
+                            <h3>Cold Drinks</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Natural Water </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>25.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Coca-Cola & Coca Cola zero</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sprite </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fanta<span>( Apple-Orange)</span></th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Schweppes<span> (Tangerine)</span> </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Schweppes Gold<span> (Peach-Pineapple)</span> </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Birell<span> (Non Alcoholic Beer)</span></th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Iced Tea<span> (Peach-Lemon)</span></th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sod a & Tonic </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Canned Juice<span> (Orange-Mango-Guava- Tomato-Apple-Pineapple)</span></th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>40.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sunshine </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>40.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Red Bull </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>50.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Seasonal Fresh Juice</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>50.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Virgin MOJito </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>50.00 </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Mahmya Cocktail </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>55.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fresh Mahmya Cocktail </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>75.00 </td>
+                                    </tr>
+
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Cold Drinks-->
+            <!-- Start Itme Hot Drinks -->
+            <div id="Hot Drinks" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Hot Drinks.jpg" alt="Hot Drinks">
+                        <div class=" caption ">
+                            <h3>Hot Drinks</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Tea <span>(Black - Green) </span></th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>25.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nescafe </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Espresso </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>40.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Cappuccino </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>45.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Caffe Latte </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>45.00 </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme hot Drinks-->
+            <!-- Start Itme Wine -->
+            <div id="Wine" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Wine.jpg" alt="Wine">
+                        <div class=" caption ">
+                            <h3>Wine</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th> </th>
+                                        <td> </td>
+                                        <td> Bottle</td>
+                                        <td>Glass </td>
+                                    </tr>
+                                    <tr>
+                                        <th>White </th>
+                                        <td> </td>
+                                        <td> 320.00</td>
+                                        <td> 70.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Rose </th>
+                                        <td> </td>
+                                        <td> 320.00</td>
+                                        <td> 70.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Red </th>
+                                        <td> </td>
+                                        <td> 350.00</td>
+                                        <td> 80.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sparkling Wine</th>
+                                        <td> </td>
+                                        <td> 450.00 </td>
+                                        <td> </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme wine-->
+            <!-- Start Itme Beer -->
+            <div id="Beer" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Beer.jpg" alt="Beer">
+                        <div class=" caption ">
+                            <h3>Beer</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th> Stella </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>60.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Heineken </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 60.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sakara Gold</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 60.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Desperados</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 75.00</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Beer-->
+            <!-- Start Itme Dessert -->
+            <div id="Dessert" class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="test">
+                        <img src="Dessert.jpg" alt="Dessert">
+                        <div class=" caption ">
+                            <h3>Dessert</h3>
+                            <table class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <th>Kimo Cono lce Cream</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>30.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nestle lce Cream</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>35.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Oreo lce Cream Cone</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 45.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Oreo lce Cream Stick</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 55.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Seasonal Fresh Fruit </th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 45.00 </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>French Pastry</th>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> 60.00 </td>
+                                    </tr>
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Itme Dessert-->
         </div>
     </div>
 
-    <!-- End Itme salad -->
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </body>
