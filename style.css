@@ -54,4 +54,6 @@
 
 .main-content {
     padding-top: 70px;
+    display: block;
+    margin: 0 auto;
 }
