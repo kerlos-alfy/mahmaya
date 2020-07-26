@@ -1,0 +1,53 @@
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.thumbnail {
+    margin-top: 20px;
+}
+
+.test img {
+    border-radius: 30px;
+    -webkit-box-shadow: 11px 14px 30px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 14px 30px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 14px 30px -13px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    margin-bottom: 12px;
+    width: 400px;
+    display: block;
+}
+
+.test h3 {
+    text-align: center;
+}
+
+.table-striped {
+    border: 1px solid #01559A;
+    font-weight: bold;
+    color: #01559A;
+}
+
+.table td,
+.table th {
+    border-top: 1.2px solid#01559A;
+}
+
+.test h3 {
+    color: #01559A;
+    font-size: 40PX;
+    font-weight: bold;
+}
+
+.caption span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.main-content {
+    margin: 5px;
+}
